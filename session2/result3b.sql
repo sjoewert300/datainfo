@@ -1,10 +1,6 @@
-SELECT p.pid FROM Person p
+﻿SELECT a.pid FROM Acts a
 WHERE EXISTS (
-	SELECT * FROM Acts a
-	WHERE a.pid = p.pid
-	AND EXISTS (
-		SELECT * FROM Movie m
-		WHERE m.mid = a.mid
-		AND m.name = 'Back to the Future'
-		)
+	SELECT * FROM Movie m
+	WHERE m.mid = a.mid
+	AND m.name = 'Back to the Future'
 	);
