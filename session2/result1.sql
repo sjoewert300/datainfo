@@ -1,0 +1,10 @@
+INSERT INTO Problem1 task, result, motivation VALUES ("a", FALSE, "Het is mogelijk dat er meerdere voertuigen zijn met dezelfde capaciteit");
+INSERT INTO Problem1 task, result, motivation VALUES ("b", TRUE, "De capaciteit is bindend voor een voertuig");
+INSERT INTO Problem1 task, result, motivation VALUES ("c", TRUE, "c) zegt dat een pakje op één factuur wordt gemeld, en a) dat een factuur voor één ontvanger is. AF impliceert dus P");
+INSERT INTO Problem1 task, result, motivation VALUES ("d", TRUE, "dit volgt uit 7");
+INSERT INTO Problem1 task, result, motivation VALUES ("e", TRUE, "dit volgt uit dat het geldbedrag op de factuur staat en de ontvanger op de factuur");
+INSERT INTO Problem1 task, result, motivation VALUES ("f", TRUE, "Uit de bezorger volgt het voertuig");
+INSERT INTO Problem1 task, result, motivation VALUES ("g", FLASE, "");
+INSERT INTO Problem1 task, result, motivation VALUES ("h", TRUE, "");
+INSERT INTO Problem1 task, result, motivation VALUES ("i", TRUE, "");
+INSERT INTO Problem1 task, result, motivation VALUES ("j", TRUE, "");
