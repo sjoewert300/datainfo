@@ -1,6 +1,2 @@
-﻿SELECT a.pid FROM Acts a
-WHERE EXISTS (
-	SELECT * FROM Movie m
-	WHERE m.mid = a.mid
-	AND m.name = 'Back to the Future'
-	);
+﻿SELECT a.pid FROM Acts a JOIN Movie m
+ON m.mid = a.mid WHERE m.name = 'Back to the Future';
